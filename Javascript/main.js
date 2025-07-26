@@ -1,4 +1,12 @@
 
+function person(first, last, age){
+    this.first = first;
+    this.last = last;
+    this.age = age;
+}
+
+console.log();
+
 
 
 
