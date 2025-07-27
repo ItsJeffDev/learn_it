@@ -1,0 +1,39 @@
+body, html {
+    background-color: salmon;
+}
+
+.Box{
+    width: 400px;
+    display: flex;
+    height: 380px;
+    background-color: black;
+    margin: 115px auto;
+    border-radius: 15px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+}
+
+#txt{
+    width: 200px;
+    height: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:900;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+}   
+
+#btn{
+    width: 100px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
