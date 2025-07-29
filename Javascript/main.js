@@ -1,19 +1,32 @@
+let names = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let damn = "JeffKolinMiranda";
 
-function person(first, last, age){
-    this.first = first;
-    this.last = last;
-    this.age = age;
-}
-
-console.log();
-
-
-
-
+console.log(names.slice(5, 11));
+console.log(names.charCodeAt(0));
+console.log(names.at(0));
+let what = damn.matchAll(/a/g);
+console.log(JSON.stringify(what));
+console.log(damn.startsWith("Je"));
+console.log(damn.endsWith("da"));
 
 
 
 
+
+// function person(first, last, age){
+//     this.first = first;
+//     this.last = last;
+//     this.age = age;
+// }
+
+// let guy = new person("jeff", "miranda", 17);
+
+// if (guy.first == 'jeff'){
+//     console.log("It's jeff!!");
+// } else {
+//     console.log("idk`");
+    
+// }
 
 // let car = {
 //     brand: "BMW",
