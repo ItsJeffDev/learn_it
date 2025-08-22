@@ -13,50 +13,14 @@
 // names.age = 17;
 // console.log(names);
 
-let books = [
-    {
-        title:"Speaking JavaScript",
-        author:"Axel Rauschmayer",
-        num_pages:460
-    },
-    {
-        title:"Programming JavaScript Applications",
-        author:"Eric Elliott",
-        num_pages:254        
-    },
-    {
-        title:"Understanding ECMAScript 6",
-        author:"Nicholas C. Zakas",
-        num_pages:352  
-    }
-];
-
-let new_books = {
-        title:"Learning JavaScript Design Patterns",
-        author:"Addy Osmani",
-        num_pages: 254
-}
-
-books.push(new_books);
-console.log(books[0].title);
-console.log(books[1].title);
-console.log(books[2].title);
-console.log(books[3].title);
+// console.log(2 * 3 + 1);      // expected 7
+// console.log(2 ** 4);       // expected 16
+// console.log(5 * 1);       // expected 5
+// console.log(8 + 2 + 5 * 2); // expected 39 
 
 
-let copy = books.slice(2);
-
-let sum = "";
-
-for (let i = 0; i < books.length; i++){
-    sum += books[i].title
-}
-
-console.log(sum);
+console.log();
 
 
-let huh = ["jef","add","dqq"]
-console.log(huh.push("g"));
-console.log(huh);
 
 
