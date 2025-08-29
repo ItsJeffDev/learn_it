@@ -305,11 +305,178 @@ smaller than 60.
 // for (let x = 10; x > 1; x -= 2){
 //     console.log("hello");
 // }
-let names = "Jeff";
-function name(){
-    console.log(`Name: ` + names);   
-}
+// let names = "Jeff";
+// function name(){
+//     console.log(`Name: ` + names);   
+// }
 
-for (let i = 0; i < 5; i++){
-    name();
-}
+// for (let i = 0; i < 5; i++){
+//     name();
+// }
+
+// function damn(first, second){
+//     return first + second;
+// }
+
+// console.log(damn(5,5));
+
+// let names = ["Jeff", "Kolin", "P.", "Miranda"];
+// function getElement(element, index){
+//     return element[index - 1];
+// }
+
+// let name = getElement(names, 3);
+// console.log(name);
+
+// let a = 100, b = 50, c = 150;
+
+// function add(a){
+//     let b = 20;
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+
+// console.log(add(1));
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// function getTemp(temp){
+//     if (!(temp instanceof Array)){
+//         return NaN;
+//     }
+//     let sum = 0;
+//     for (let i = 0; i < temp.length; i++){
+//         sum += temp[i];
+//     }
+//     return sum / temp.length;
+// }
+
+// console.log(getTemp(10));
+// console.log(getTemp([10,20]));
+
+/*
+the factorial of 6 is:
+
+6!=6∙5∙4∙3 ∙2∙1=720
+ */
+
+// function getFact(n){
+//     let result = 1;
+
+//     while (n > 1){
+//         result *= n;
+//         n--;
+//     }
+//     return result;
+// }
+
+// console.log(getFact(6));
+
+// function getMess(mess){
+//     console.log(`Message: ${mess}`);
+// }
+
+// let sm = getMess;
+
+// sm("Jeff Is Pogi");
+
+// console.log(typeof sm);
+
+// function doNothing(){
+//     return undefined;
+// }
+
+// let a = doNothing();
+// let b = doNothing;
+
+// console.log(typeof a);
+// console.log(typeof b);
+
+// function getMul(n){
+//     return n > 1 ? n * getMul(n - 1) : 1;
+// }
+
+// let result = getMul(6);
+// console.log(result);
+
+
+// function add(a, b){
+//     return a + b;
+// }
+
+// function multiply(a, b){
+//     return a * b;
+// }
+
+// function compute(func, a, b){
+//     return func(a, b);
+// }
+
+// console.log(compute(add, 10, 10));
+// console.log(compute(multiply, 10, 10));
+
+// function operation(func, a, b){
+//     return func(a, b);
+// }
+
+// let newAdd = function(a,b){
+//     return a + b;
+// }
+
+// console.log(operation(newAdd, 50, 50));
+
+// let inner = function() {
+//      console.log('inner 1');
+// }
+// let outer = function(callback) {
+//      console.log('outer 1');
+//      callback();
+//      console.log('outer 2');
+// }
+// console.log('test 1');
+// outer(inner);
+// console.log('test 2');
+
+// let inner = function(){
+//     console.log("Inner 1");
+// }
+
+// let outer = function(callback){
+//     console.log("Outer 1");
+//     setTimeout(callback, 1000);
+//     console.log("Outter 2");
+// }
+
+// console.log("test 1");
+// outer(inner);
+// console.log("test 2");
+
+// let inner = function(){
+//     console.log("Inner 1");
+// }
+
+// let outer =  function(callback){
+//     console.log("Outer 1");
+//     let timeId = setInterval(callback, 1000);
+//     console.log("Outer 2");
+//     setTimeout(function(){
+//         clearInterval(timeId);
+//     },5500);
+// }
+
+// console.log("test 1");
+// outer(inner);
+// console.log("test 2");
+
+
+
+
+
+
+
+
+
+
