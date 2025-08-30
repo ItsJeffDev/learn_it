@@ -531,17 +531,43 @@ the factorial of 6 is:
 // }
 // console.log("end"); // -> end
 
-let counter = 0; 
-let maxValue = 10; 
-let result = 1; 
+// let counter = 0; 
+// let maxValue = 10; 
+// let result = 1; 
  
-debugger; 
-for (counter = 0; counter < maxValue; counter++) { 
-    console.log(result); 
-    result *= maxValue - counter - 1; 
-} 
+// debugger; 
+// for (counter = 0; counter < maxValue; counter++) { 
+//     console.log(result); 
+//     result *= maxValue - counter - 1; 
+// } 
  
-console.log("Final result: ", result);
+// console.log("Final result: ", result);
+
+// let id = "100";
+// {
+// let id = 200;
+// id = id + 1;
+// console.log(id);
+// }
+
+// let name = ["jeff", "kolin", "miranda"];
+
+// let add = name.reverse(name);
+
+// console.log(name);
+
+const a = "hello";
+    console.log(a.toUpperCase());
+}
+} catch (error) {
+    console.log(a)
+    } finally {
+    console.log(a);
+}
+
+
+
+
 
 
 
