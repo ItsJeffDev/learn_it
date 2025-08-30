@@ -471,6 +471,78 @@ the factorial of 6 is:
 // outer(inner);
 // console.log("test 2");
 
+// let inner = function(){
+//     console.log("Inner 1");
+// }
+
+// let outer = function(callback){
+//     console.log("Outer 1");
+//     let timeid = setInterval(callback, 1000);
+//     console.log("Outer 2");
+    
+// }
+
+// function test(counter) {
+//      console.log("test");
+//      if (counter > 0)
+//          test(--counter);
+// }
+// test(3);
+// let a = -2;
+// try {
+//     a = b;
+// } catch (error) {
+//     if (error instanceof ReferenceError) {
+//         console.log("Reference error, reset a to -2"); // -> Reference error, reset a to -2
+//         a = -2;
+//     } else {
+//         console.log("Other error - " + error);
+//     }
+// }
+// console.log(a); // -> -2
+
+// let a = 10;
+// try {
+//     a = b;  // ReferenceError
+// } catch(er){
+//     console.log("Eroor" + er);
+// } finally {
+//     console.log("finally"); // -> 10
+// }
+// console.log(a);
+
+// let a = 10;
+// try {
+//     a = b; // First ReferenceError
+// } catch (error) {
+//     try {
+//         console.log(b); // Second ReferenceError
+//     } catch {
+//         console.log("Second catch!"); // -> Second catch!
+//     }
+// } finally {
+//     console.log("Finally!"); // -> Finally!
+// }
+// console.log("start"); // -> start
+// try {
+//     throw 100;
+// } catch (error) {
+//     console.log(error); // -> 100
+// }
+// console.log("end"); // -> end
+
+let counter = 0; 
+let maxValue = 10; 
+let result = 1; 
+ 
+debugger; 
+for (counter = 0; counter < maxValue; counter++) { 
+    console.log(result); 
+    result *= maxValue - counter - 1; 
+} 
+ 
+console.log("Final result: ", result);
+
 
 
 
